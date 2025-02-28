@@ -44,10 +44,11 @@ void menu()
 
     do {
         cout << "\nchoose an option: "<< endl;
-        cout << "101 - add (+)"<< endl;
-        cout << "102 - substract (-)" << endl;
-        cout << "104 - multiply (*)"<< endl;
-        cout << "0 - exit"<< endl;
+        cout << PLUS << " - add (+)"<< endl;
+        cout << MINUS << " - subtract (-)" << endl;
+        cout << DIVIDE << " - divide (/)" << endl;
+        cout << MULT << " - multiply (*)"<< endl;
+        cout << EXIT << " - exit"<< endl;
         cout << "your choice: ";
         cin >> choice;
 
